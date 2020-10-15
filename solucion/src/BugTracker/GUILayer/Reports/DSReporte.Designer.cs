@@ -379,7 +379,7 @@ namespace BugTracker.GUILayer.Reports {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public DTReporteRow AddDTReporteRow(string producto, string estado, string ctd) {
+            public DTReporteRow AddDTReporteRow(string producto, string estado, long ctd) {
                 DTReporteRow rowDTReporteRow = ((DTReporteRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         producto,
@@ -419,7 +419,7 @@ namespace BugTracker.GUILayer.Reports {
                 base.Columns.Add(this.columnproducto);
                 this.columnestado = new global::System.Data.DataColumn("estado", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnestado);
-                this.columnctd = new global::System.Data.DataColumn("ctd", typeof(string), null, global::System.Data.MappingType.Element);
+                this.columnctd = new global::System.Data.DataColumn("ctd", typeof(long), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnctd);
             }
             
@@ -595,10 +595,10 @@ namespace BugTracker.GUILayer.Reports {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public string ctd {
+            public long ctd {
                 get {
                     try {
-                        return ((string)(this[this.tableDTReporte.ctdColumn]));
+                        return ((long)(this[this.tableDTReporte.ctdColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
                         throw new global::System.Data.StrongTypingException("El valor de la columna \'ctd\' de la tabla \'DTReporte\' es DBNull.", e);

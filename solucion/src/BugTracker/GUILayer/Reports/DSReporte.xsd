@@ -17,7 +17,7 @@
             <xs:sequence>
               <xs:element name="producto" msprop:Generator_ColumnVarNameInTable="columnproducto" msprop:Generator_ColumnPropNameInRow="producto" msprop:Generator_ColumnPropNameInTable="productoColumn" msprop:Generator_UserColumnName="producto" type="xs:string" minOccurs="0" />
               <xs:element name="estado" msprop:Generator_ColumnVarNameInTable="columnestado" msprop:Generator_ColumnPropNameInRow="estado" msprop:Generator_ColumnPropNameInTable="estadoColumn" msprop:Generator_UserColumnName="estado" type="xs:string" minOccurs="0" />
-              <xs:element name="ctd" msprop:Generator_ColumnVarNameInTable="columnctd" msprop:Generator_ColumnPropNameInRow="ctd" msprop:Generator_ColumnPropNameInTable="ctdColumn" msprop:Generator_UserColumnName="ctd" type="xs:string" minOccurs="0" />
+              <xs:element name="ctd" msprop:Generator_ColumnVarNameInTable="columnctd" msprop:Generator_ColumnPropNameInRow="ctd" msprop:Generator_ColumnPropNameInTable="ctdColumn" msprop:Generator_UserColumnName="ctd" type="xs:long" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>

@@ -158,10 +158,10 @@
     <EmbeddedResource Include="GUILayer\frmPrincipal.resx">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUILayer\Reports\BugReport.rdlc" />
     <EmbeddedResource Include="GUILayer\Reports\frmBugReport.resx">
       <DependentUpon>frmBugReport.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUILayer\Reports\ReporteBugs.rdlc" />
     <EmbeddedResource Include="GUILayer\Usuarios\frmABMUsuario.resx">
       <DependentUpon>frmABMUsuario.cs</DependentUpon>
     </EmbeddedResource>

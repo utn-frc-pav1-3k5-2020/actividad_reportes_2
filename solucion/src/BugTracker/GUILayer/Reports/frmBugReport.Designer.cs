@@ -90,7 +90,7 @@
             // 
             // btnGenerar
             // 
-            this.btnGenerar.Location = new System.Drawing.Point(582, 19);
+            this.btnGenerar.Location = new System.Drawing.Point(570, 17);
             this.btnGenerar.Name = "btnGenerar";
             this.btnGenerar.Size = new System.Drawing.Size(75, 23);
             this.btnGenerar.TabIndex = 2;
@@ -100,13 +100,12 @@
             // 
             // rpvBugs
             // 
-            this.rpvBugs.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.rpvBugs.LocalReport.ReportEmbeddedResource = "BugTracker.GUILayer.Reports.BugReport.rdlc";
-            this.rpvBugs.Location = new System.Drawing.Point(6, 72);
+            this.rpvBugs.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rpvBugs.LocalReport.ReportEmbeddedResource = "BugTracker.GUILayer.Reports.ReporteBugs.rdlc";
+            this.rpvBugs.Location = new System.Drawing.Point(0, 66);
             this.rpvBugs.Name = "rpvBugs";
             this.rpvBugs.ServerReport.BearerToken = null;
-            this.rpvBugs.Size = new System.Drawing.Size(782, 378);
+            this.rpvBugs.Size = new System.Drawing.Size(800, 384);
             this.rpvBugs.TabIndex = 2;
             // 
             // frmBugReport

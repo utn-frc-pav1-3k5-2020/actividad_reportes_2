@@ -4,8 +4,5 @@
 
     partial class DSReporte
     {
-        partial class DTReporteDataTable
-        {
-        }
     }
 }
